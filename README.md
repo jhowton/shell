@@ -4,6 +4,11 @@ A simple shell written in C++
 The shell can run the built-in commands below or any commands in the /bin or /usr/bin folders.
 Built-in commands have precedence over commands in these folders if names are shared. 
 
+Commands can be run from an interactive shell or from a file of commands passed as a command line argument.
+
+To use this program, download all files, and run make. The program can be run without arguments for an interactive shell
+or with a single argument specifying a file containing shell commands separated by new lines.
+
 Built-In commands:
   
     exit
